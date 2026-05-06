@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>GARMIN vivoactive 5 を実際に使って分かった魅力と弱点</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #222;
+      line-height: 1.7;
+    }
+    header {
+      background: #000;
+      color: #fff;
+      padding: 14px 16px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 18px 16px 40px;
+    }
+    h1 {
+      font-size: 22px;
+      margin: 10px 0 14px;
+    }
+    h2 {
+      font-size: 18px;
+      margin: 24px 0 10px;
+      border-left: 4px solid #000;
+      padding-left: 8px;
+    }
+    h3 {
+      font-size: 16px;
+      margin: 18px 0 8px;
+    }
+    p {
+      font-size: 14px;
+      margin: 6px 0;
+    }
+    .meta {
+      font-size: 12px;
+      color: #666;
+      margin-bottom: 10px;
+    }
+    .hero {
+      margin: 10px 0 18px;
+      text-align: center;
+    }
+    .hero img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .tag-list {
+      margin: 8px 0 16px;
+      font-size: 12px;
+      color: #555;
+    }
+    .tag-list span {
+      display: inline-block;
+      background: #eee;
+      padding: 2px 8px;
+      border-radius: 10px;
+      margin-right: 6px;
+      margin-bottom: 4px;
+    }
+    .review-box {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 12px;
+      background: #fafafa;
+      margin: 10px 0 20px;
+      font-size: 13px;
+    }
+    .review-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 6px;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .stars {
+      color: #f5a623;
+      font-size: 14px;
+    }
+    .summary-box {
+      border-radius: 8px;
+      padding: 12px;
+      background: #f0f7ff;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+    ul {
+      padding-left: 20px;
+      font-size: 14px;
+    }
+    footer {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 12px 16px 24px;
+      font-size: 11px;
+      color: #777;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>Gadget & Life News</header>
+
+<main>
+  <div class="meta">
+    カテゴリ：ガジェット / 購入日：2025-03-22 / モデル：GARMIN vivoactive 5（Black / Slate）
+  </div>
+
+  <h1>GARMIN vivoactive 5 を実際に使って分かった魅力と弱点</h1>
+
+  <div class="hero">
+    <!-- 画像ファイル名は garmin-vivoactive5.jpg でアップロードする -->
+    <img src="garmin-vivoactive5.jpg" alt="GARMIN vivoactive 5 本体画像">
+  </div>
+
+  <div class="tag-list">
+    <span>GARMIN</span>
+    <span>スマートウォッチ</span>
+    <span>vivoactive 5</span>
+  </div>
+
+  <p>
+    GARMIN（ガーミン）の「vivoactive 5」は、日々の活動や睡眠、ストレス状態まで細かく可視化してくれる
+    スマートウォッチです。ここでは、実際に購入して使ってみたレビューと、ガーミン公式サイトで紹介されている
+    特徴を整理しつつ、「どんな人に向いているのか」「どこに弱点を感じたか」をまとめます。
+  </p>
+
+  <!-- 1. 実際に使ってみたレビュー -->
+  <h2>1. 実際に使ってみて感じたこと（レビュー）</h2>
+
+  <div class="review-box">
+    <div class="review-header">
+      <strong>ちいくわ さんのレビュー</strong>
+      <span class="stars">★★★★★</span>
+      <span>Amazonで購入</span>
+    </div>
+    <p>
+      生活をコーチングしつつ、常時点灯を数日間できるのは良い。<br>
+      また睡眠の質やストレスレベルをコーチングしてアドバイスしてくれる。<br>
+      バッテリーが長いので睡眠時につけたまま仕事に行っても問題無し（入浴中の充電）。
+    </p>
+    <p class="meta">
+      レビュー日：2025年3月22日 / カラー：Black / Slate
+    </p>
+  </div>
+
+  <h3>常時表示とバッテリー持ちのバランスがかなり優秀</h3>
+  <p>
+    実際に使ってみてまず感じるのは、「常時表示でもバッテリーがしっかり持つ」という点です。
+    一般的なスマートウォッチだと、常時表示にすると1日持たないこともありますが、
+    vivoactive 5 は数日レベルで使えるため、「毎日バッテリー残量を気にするストレス」がかなり減ります。
+  </p>
+
+  <h3>睡眠とストレスの“見える化”が生活のリズムを整えてくれる</h3>
+  <p>
+    睡眠の質やストレスレベルをスコア化してくれるので、「なんとなく疲れている」ではなく、
+    データとして自分の状態を把握できるのが大きなメリットです。<br>
+    寝不足の日やストレスが高い日が一目でわかるので、「今日は早めに寝よう」「少しペースを落とそう」といった
+    調整がしやすくなります。
+  </p>
+
+  <h3>お風呂の時間だけ充電する運用がちょうどいい</h3>
+  <p>
+    レビューにもある通り、「入浴中だけ充電する」という運用が現実的です。
+    睡眠中も仕事中もつけっぱなしにして、風呂のタイミングでサッと充電するだけで
+    ほぼバッテリー切れの不安なく使い続けられます。
+  </p>
+
+  <!-- 2. ガーミン公式サイトから読み取れる主な特徴（要約） -->
+  <h2>2. ガーミン公式サイトから読み取れる主な特徴（要約）</h2>
+
+  <p class="meta">
+    ※以下はガーミン公式サイトに記載されている内容をもとに、要点を要約したものです。
+  </p>
+
+  <h3>2-1. 見やすい AMOLED ディスプレイと常時表示</h3>
+  <p>
+    vivoactive 5 は高コントラストな AMOLED ディスプレイを採用しており、
+    屋内・屋外問わず視認性が高いのが特徴です。常時表示モードにも対応しているため、
+    時計としての見やすさと、スマートウォッチとしての情報量を両立しています。
+  </p>
+
+  <h3>2-2. 多彩なヘルスモニタリング機能</h3>
+  <p>
+    心拍数、睡眠、ストレス、呼吸、血中酸素レベルなど、日常のコンディションを多角的に計測できます。
+    これらのデータをもとに、体の「調子の波」を把握しやすくなり、
+    トレーニングだけでなく日々の生活リズムの見直しにも役立ちます。
+  </p>
+
+  <h3>2-3. フィットネス・スポーツ機能の充実</h3>
+  <p>
+    ランニング、ウォーキング、サイクリング、筋トレ、ヨガなど、多数のアクティビティに対応。
+    距離やペースだけでなく、ワークアウトの負荷や回復の目安も確認できるため、
+    「やりすぎ」と「物足りない」のバランスを取りやすい設計になっています。
+  </p>
+
+  <h3>2-4. 日常使いを支えるスマート機能</h3>
+  <p>
+    スマホの通知表示、音楽再生のコントロール、対応地域では非接触決済など、
+    日常生活を便利にする機能も搭載されています。<br>
+    「運動用デバイス」というより、「生活全体をサポートするウェアラブル」という位置づけに近い印象です。
+  </p>
+
+  <!-- 3. まとめ -->
+  <h2>3. まとめ：GARMIN vivoactive 5 はどんな人に向いているか</h2>
+
+  <div class="summary-box">
+    <h3>こんな人に向いている</h3>
+    <ul>
+      <li>常時表示のスマートウォッチが欲しいが、バッテリー持ちも妥協したくない人</li>
+      <li>睡眠やストレス状態を「なんとなく」ではなく、データで把握したい人</li>
+      <li>ランニングやウォーキングなど、日常的に軽い運動をしている人</li>
+      <li>仕事中も睡眠中もつけっぱなしで、自分のコンディションを見守りたい人</li>
+    </ul>
+
+    <h3>注意したいポイント・弱点</h3>
+    <ul>
+      <li>スマホ連携や設定項目が多く、最初はやや取っつきにくく感じる可能性がある</li>
+      <li>デザインはややスポーティ寄りで、フォーマルな場では好みが分かれる</li>
+      <li>ヘルスデータを活かすには、ある程度「毎日つけ続ける」前提になる</li>
+    </ul>
+
+    <p>
+      総合的に見ると、GARMIN vivoactive 5 は「生活と運動の両方をちゃんと見直したい人」に
+      かなり刺さるスマートウォッチです。<br>
+      常時表示・長時間バッテリー・ヘルスモニタリングのバランスが良く、
+      「とりあえずスマートウォッチを試したい」というライト層よりも、
+      「自分の生活習慣を整えたい」「コンディションを数値で管理したい」という人にこそおすすめできます。
+    </p>
+  </div>
+
+</main>
+
+<footer>
+  本記事は、実際の使用レビューとガーミン公式サイトの情報をもとに、筆者の視点で構成しています。
+</footer>
+
+</body>
+</html>
