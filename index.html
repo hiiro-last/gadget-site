@@ -1,62 +1,46 @@
-header {
-  background: #000;
-  color: #fff;
-  padding: 15px;
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
-}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>レビュー一覧</title>
+<link rel="stylesheet" href="style.css">
+</head>
 
-nav {
-  display: flex;
-  overflow-x: auto;
-  background: #222;
-  white-space: nowrap;
-}
+<body>
 
-nav a {
-  color: #fff;
-  padding: 12px 18px;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-}
+<header>レビュー一覧</header>
 
-nav a.active {
-  background: #444;
-}
+<nav>
+  <a class="active">すべて</a>
+  <a>ガジェット</a>
+  <a>日用品</a>
+  <a>家電</a>
+</nav>
 
-section {
-  padding: 15px;
-}
+<section id="articles"></section>
 
-.article-card {
-  background: #fff;
-  margin-bottom: 18px;
-  padding: 12px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  cursor: pointer;
-}
+<script>
+fetch("articles.json")
+  .then(res => res.json())
+  .then(data => {
+    const container = document.getElementById("articles");
+    data.forEach(article => {
+      const card = document.createElement("div");
+      card.className = "article-card";
+      card.onclick = () => location.href = article.url;
 
-.article-card img {
-  width: 100%;
-  border-radius: 6px;
-  margin-bottom: 10px;
-}
+      card.innerHTML = `
+        <img src="${article.thumb}" alt="">
+        <div class="article-meta">${article.purchaseDate}</div>
+        <h2>${article.title}</h2>
+        <p>${article.description}</p>
+      `;
 
-.article-meta {
-  font-size: 13px;
-  color: #555;
-  margin-bottom: 6px;
-}
+      container.appendChild(card);
+    });
+  });
+</script>
 
-h2 {
-  font-size: 18px;
-  margin: 6px 0;
-}
-
-p {
-  font-size: 14px;
-  color: #333;
-}
+</body>
+</html>
