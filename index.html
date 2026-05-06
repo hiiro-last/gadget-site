@@ -44,14 +44,14 @@
           card.className = "article-card";
 
           card.innerHTML = `
-            <img src="images/${article.thumb}" alt="${article.title}">
+            <img src="${article.thumb}" alt="${article.title}">
             <div class="article-meta">購入日：${article.purchaseDate}</div>
             <h2>${article.title}</h2>
             <p>${article.description}</p>
           `;
 
           card.addEventListener("click", () => {
-            window.location.href = "articles/" + article.url;
+            window.location.href = article.url;
           });
 
           section.appendChild(card);
