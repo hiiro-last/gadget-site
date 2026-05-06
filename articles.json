@@ -50,5 +50,18 @@
     "priority": 4,
     "isFeatured": false,
     "affiliate": false
+  },
+  {
+    "id": "deonatulle-softstone",
+    "title": "デオナチュレ ソフトストーンを実際に使って分かった効果と注意点",
+    "category": "daily",
+    "purchaseDate": "2025-04-29",
+    "thumb": "deona.png",
+    "url": "deonatulle-softstone-review.html",
+    "description": "口コミと一般論をもとに、ソフトストーンの持続力・使用感・注意点を詳しく解説。",
+    "tags": ["デオドラント", "日用品", "制汗剤"],
+    "priority": 4,
+    "isFeatured": false,
+    "affiliate": false
   }
 ]
