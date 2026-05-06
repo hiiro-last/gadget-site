@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Gadget & Life News</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+/* ------------------------------------
+   基本設定
+------------------------------------ */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #f7f7f7;
+  color: #222;
+}
+
+/* ------------------------------------
+   ヘッダー
+------------------------------------ */
+header {
+  background: #111;
+  color: #fff;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+/* ------------------------------------
+   タブメニュー
+------------------------------------ */
+.tabs {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 10px 20px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.tab {
+  padding: 6px 4px;
+  font-size: 15px;
+  color: #666;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.tab.active {
+  color: #111;
+  font-weight: bold;
+  border-bottom: 2px solid #111;
+}
+
+/* ------------------------------------
+   コンテンツ領域
+------------------------------------ */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+/* ------------------------------------
+   記事カード
+------------------------------------ */
+.article-list {
+  display: none;
+}
+
+.article-list.active {
+  display: block;
+}
+
+.article-card {
+  display: flex;
+  gap: 16px;
+  padding: 18px 0;
+  border-bottom: 1px solid #e5e5e5;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.article-card:hover {
+  background: #f0f0f0;
+}
+
+.article-thumb {
+  width: 160px;
+  height: 90px;
+  background: #ddd;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.article-info {
+  flex: 1;
+}
+
+.article-meta {
+  font-size: 11px;
+  color: #777;
+  margin-bottom: 4px;
+}
+
+.article-card h2 {
+  margin: 4px 0 6px 0;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.article-card p {
+  margin: 0;
+  color: #444;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* ------------------------------------
+   フッター
+------------------------------------ */
+footer {
+  background: #111;
+  color: #fff;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.footer-nav a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-nav a:hover {
+  color: #fff;
+}
+
+.to-top a {
+  color: #4da3ff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* ------------------------------------
+   スマホ対応
+------------------------------------ */
+@media (max-width: 600px) {
+  .article-card {
+    flex-direction: column;
+  }
+  .article-thumb {
+    width: 100%;
+    height: 200px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">Gadget & Life News</div>
+</header>
+
+<nav class="tabs">
+  <div class="tab active" data-tab="gadget">ガジェット</div>
+  <div class="tab" data-tab="daily">日用品</div>
+  <div class="tab" data-tab="home">家電</div>
+  <div class="tab" data-tab="manga">漫画・雑誌</div>
+  <div class="tab" data-tab="admin">管理人用</div>
+  <div class="tab" data-tab="other">その他</div>
+</nav>
+
+<div class="container">
+
+  <!-- ▼ カテゴリごとの記事リスト -->
+  <section id="gadget" class="article-list active"></section>
+  <section id="daily" class="article-list"></section>
+  <section id="home" class="article-list"></section>
+  <section id="manga" class="article-list"></section>
+  <section id="admin" class="article-list"></section>
+  <section id="other" class="article-list"></section>
+
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo">Gadget & Life News</div>
+    <div class="footer-nav">
+      <a href="#gadget">ガジェット</a>
+      <a href="#daily">日用品</a>
+      <a href="#home">家電</a>
+      <a href="#manga">漫画・雑誌</a>
+      <a href="#admin">管理人用</a>
+      <a href="#other">その他</a>
+    </div>
+    <div class="to-top">
+      <a href="#">▲ トップページへ戻る</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* タブ切替 */
+const tabs = document.querySelectorAll('.tab');
+const lists = document.querySelectorAll('.article-list');
+
+tabs.forEach(tab => {
+  tab.addEventListener('click', () => {
+    tabs.forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+
+    const target = tab.dataset.tab;
+    lists.forEach(list => {
+      list.classList.toggle('active', list.id === target);
+    });
+  });
+});
+
+/* JSON 読み込み → 記事カード自動生成 */
+fetch('articles.json')
+  .then(response => response.json())
+  .then(data => {
+    data.forEach(article => {
+      const section = document.getElementById(article.category);
+      if (!section) return;
+
+      const card = document.createElement('div');
+      card.className = 'article-card';
+      card.onclick = () => location.href = article.url;
+
+      card.innerHTML = `
+        <img src="${article.thumb}" class="article-thumb">
+        <div class="article-info">
+          <div class="article-meta">
+            更新日：${article.date} ｜ 来場数：${article.views}
+          </div>
+          <h2>${article.title}</h2>
+          <p>${article.description}</p>
+        </div>
+      `;
+
+      section.appendChild(card);
+    });
+  });
+</script>
+
+</body>
+</html>
