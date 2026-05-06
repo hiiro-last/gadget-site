@@ -1,46 +1,13 @@
-[
-  {
-    "id": "magsafe-case",
-    "title": "Apple MagSafe対応iPhoneケースを1年使って分かった弱点",
-    "category": "gadget",
-    "date": "2024-06-22",
-    "views": 1234,
-    "thumb": "magsafe-thumb.jpg",
-    "url": "magsafe-case.html",
-    "description": "見た目は上質だが、ゴム欠け・糸ほつれなど耐久性に課題。実際の使用感を詳しくレビュー。",
-    "tags": ["iPhone", "ケース", "MagSafe"],
-    "priority": 5,
-    "isFeatured": true,
-    "affiliate": false
-  },
-
-  {
-    "id": "daily-towel",
-    "title": "毎日使うタオルは結局どれが最強なのか？素材別に比較してみた",
-    "category": "daily",
-    "date": "2024-05-10",
-    "views": 532,
-    "thumb": "towel-thumb.jpg",
-    "url": "daily-towel.html",
-    "description": "綿・マイクロファイバー・ガーゼの3種類を比較。吸水性・速乾性・肌触りを徹底検証。",
-    "tags": ["タオル", "日用品", "比較"],
-    "priority": 3,
-    "isFeatured": false,
-    "affiliate": false
-  },
-
-  {
-    "id": "home-fan",
-    "title": "2024年最新の静音扇風機を比較：寝室で使うならどれ？",
-    "category": "home",
-    "date": "2024-04-18",
-    "views": 890,
-    "thumb": "fan-thumb.jpg",
-    "url": "home-fan.html",
-    "description": "DCモーター搭載モデルを中心に、静音性・風量・省エネ性能を比較。",
-    "tags": ["家電", "扇風機", "静音"],
-    "priority": 4,
-    "isFeatured": false,
-    "affiliate": true
-  }
-]
+{
+  "id": "magsafe-case",
+  "title": "Apple MagSafe対応iPhoneケースを1年使って分かった弱点",
+  "category": "gadget",
+  "purchaseDate": "2023-06-01",
+  "thumb": "magsafe-thumb.jpg",
+  "url": "magsafe-case.html",
+  "description": "見た目は上質だが、ゴム欠け・糸ほつれなど耐久性に課題。実際の使用感を詳しくレビュー。",
+  "tags": ["iPhone", "ケース", "MagSafe"],
+  "priority": 5,
+  "isFeatured": true,
+  "affiliate": false
+}
