@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gadget & Life News</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>Gadget & Life News</header>
+
+<nav>
+  <a href="#" data-category="gadget" class="active">ガジェット</a>
+  <a href="#" data-category="daily">日用品</a>
+  <a href="#" data-category="home">家電</a>
+  <a href="#" data-category="magazine">漫画・雑誌</a>
+  <a href="#" data-category="admin">管理人用</a>
+  <a href="#" data-category="other">その他</a>
+</nav>
+
+<section id="articles"></section>
+
+<script>
+  fetch("articles.json")
+    .then(res => res.json())
+    .then(data => {
+      const section = document.getElementById("articles");
+      const navLinks = document.querySelectorAll("nav a");
+      let currentCategory = "gadget";
+
+      function renderArticles() {
+        section.innerHTML = "";
+
+        const filtered = data.filter(article => article.category === currentCategory);
+
+        if (filtered.length === 0) {
+          section.innerHTML = "<p>このカテゴリの記事はまだありません。</p>";
+          return;
+        }
+
+        filtered.forEach(article => {
+          const card = document.createElement("div");
+          card.className = "article-card";
+
+          card.innerHTML = `
+            <img src="${article.thumb}" alt="${article.title}">
+            <div class="article-meta">購入日：${article.purchaseDate}</div>
+            <h2>${article.title}</h2>
+            <p>${article.description}</p>
+          `;
+
+          card.addEventListener("click", () => {
+            window.location.href = article.url;
+          });
+
+          section.appendChild(card);
+        });
+      }
+
+      navLinks.forEach(link => {
+        link.addEventListener("click", e => {
+          e.preventDefault();
+          navLinks.forEach(a => a.classList.remove("active"));
+          link.classList.add("active");
+          currentCategory = link.dataset.category;
+          renderArticles();
+        });
+      });
+
+      renderArticles();
+    });
+</script>
+
+</body>
+</html>
