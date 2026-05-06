@@ -14,7 +14,6 @@
   <a href="#" data-category="gadget" class="active">ガジェット</a>
   <a href="#" data-category="daily">日用品</a>
   <a href="#" data-category="home">家電</a>
-  <a href="#" data-category="magazine">漫画・雑誌</a>
   <a href="#" data-category="admin">管理人用</a>
   <a href="#" data-category="other">その他</a>
 </nav>
@@ -44,13 +43,18 @@
           card.className = "article-card";
 
           card.innerHTML = `
-            <img src="${article.thumb}" alt="${article.title}">
+            <a href="https://www.amazon.co.jp" target="_blank">
+              <img src="${article.thumb}" alt="${article.title}">
+            </a>
             <div class="article-meta">購入日：${article.purchaseDate}</div>
             <h2>${article.title}</h2>
             <p>${article.description}</p>
           `;
 
-          card.addEventListener("click", () => {
+          // カード全体クリック → 記事ページへ
+          card.addEventListener("click", (e) => {
+            // 画像クリック時は記事ページへ飛ばさない
+            if (e.target.tagName.toLowerCase() === "img") return;
             window.location.href = article.url;
           });
 
