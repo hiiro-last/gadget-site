@@ -6,7 +6,7 @@
   <title>Gadget & Life News</title>
   <style>
     body {
-      font-family: sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
       margin: 0;
       padding: 0;
       background: #f5f5f5;
@@ -50,6 +50,7 @@
       padding: 12px;
       border-radius: 8px;
       box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      cursor: pointer;
     }
 
     .article-card img {
@@ -75,7 +76,6 @@
     }
   </style>
 </head>
-
 <body>
 
 <header>Gadget & Life News</header>
@@ -92,14 +92,11 @@
 <section id="articles"></section>
 
 <script>
-  // JSON を読み込む
   fetch("articles.json")
     .then(res => res.json())
     .then(data => {
       const section = document.getElementById("articles");
       const navLinks = document.querySelectorAll("nav a");
-
-      // 初期表示カテゴリ
       let currentCategory = "gadget";
 
       function renderArticles() {
@@ -128,14 +125,11 @@
           });
       }
 
-      // カテゴリ切り替え
       navLinks.forEach(link => {
         link.addEventListener("click", e => {
           e.preventDefault();
-
           navLinks.forEach(a => a.classList.remove("active"));
           link.classList.add("active");
-
           currentCategory = link.dataset.category;
           renderArticles();
         });
