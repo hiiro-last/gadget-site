@@ -20,7 +20,8 @@
 <section id="articles"></section>
 
 <script>
-  fetch("articles.json")
+  // ★ キャッシュ破壊付きで最新 JSON を必ず取得
+  fetch("articles.json?v=999")
     .then(res => res.json())
     .then(data => {
       const section = document.getElementById("articles");
@@ -29,7 +30,7 @@
       // ★ 初期表示カテゴリ：ガジェット
       let currentCategory = "gadget";
 
-      // ★ 最初に currentCategory に合わせて active を付ける
+      // ★ 初期状態でガジェットタブを active にする
       navLinks.forEach(link => {
         if (link.dataset.category === currentCategory) {
           link.classList.add("active");
