@@ -50,5 +50,18 @@
     "priority": 4,
     "isFeatured": false,
     "affiliate": false
+  },
+  {
+    "id": "amazon-prime-benefit-review",
+    "title": "Amazonプライム特典で年間1万円以上得した話【実際の利用実績を公開】",
+    "category": "admin",
+    "purchaseDate": "2026-05-07",
+    "thumb": "prime.png",
+    "url": "amazon-prime-benefit-review.html",
+    "description": "Amazonプライム特典の実際の利用実績と、配送料・セール・ポイント・カード決済を組み合わせて年間1万円以上得した具体的な内容を解説。",
+    "tags": ["Amazonプライム", "サブスク", "ポイント", "節約"],
+    "priority": 4,
+    "isFeatured": false,
+    "affiliate": false
   }
 ]

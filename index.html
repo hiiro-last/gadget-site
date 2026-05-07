@@ -8,7 +8,12 @@
 </head>
 <body>
 
-<header>Gadget & Life News</header>
+<header>
+  Gadget & Life News
+  <div style="font-size:14px; margin-top:6px; color:#555;">
+    ※本ブログは管理人が<strong>自腹で購入・実際に体験したものだけ</strong>を掲載しています。
+  </div>
+</header>
 
 <nav>
   <a href="#" data-category="gadget">ガジェット</a>
@@ -62,6 +67,7 @@
             <p>${article.description}</p>
           `;
 
+          // カード全体クリック → 記事ページへ
           card.addEventListener("click", (e) => {
             if (e.target.tagName.toLowerCase() === "img") return;
             window.location.href = article.url;
