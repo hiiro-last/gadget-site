@@ -25,7 +25,10 @@
 <section id="articles"></section>
 
 <script>
-  fetch("articles.json")
+  // ここで毎回違うURLとして articles.json を読ませる（ヒロさんは何も触らなくてOK）
+  const jsonUrl = "articles.json?v=" + Date.now();
+
+  fetch(jsonUrl)
     .then(res => res.json())
     .then(data => {
       const section = document.getElementById("articles");
