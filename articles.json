@@ -63,5 +63,18 @@
     "priority": 4,
     "isFeatured": false,
     "affiliate": false
+  },
+  {
+    "id": "amazon-nose-tape-clear60",
+    "title": "Amazon鼻腔拡張テープ クリア60枚入を実際に使って分かったメリット・注意点",
+    "category": "daily",
+    "purchaseDate": "2025-03-22",
+    "thumb": "nosetape.png",
+    "url": "amazon-nose-tape-clear60-review.html",
+    "description": "口コミ「これが正解」と評価されたAmazon鼻腔拡張テープ クリア60枚入について、価格・使い心地・貼り方のコツ・注意点をまとめてレビュー。",
+    "tags": ["鼻腔拡張テープ", "いびき対策", "睡眠", "日用品"],
+    "priority": 4,
+    "isFeatured": false,
+    "affiliate": false
   }
 ]
