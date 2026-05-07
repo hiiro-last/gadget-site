@@ -11,9 +11,9 @@
 <header>Gadget & Life News</header>
 
 <nav>
-  <a href="#" data-category="gadget">ガジェット</a>
+  <a href="#" data-category="gadget" class="active">ガジェット</a>
   <a href="#" data-category="daily">日用品</a>
-  <a href="#" data-category="other" class="active">ファッション</a>
+  <a href="#" data-category="other">ファッション</a>
   <a href="#" data-category="admin">管理人特製記事</a>
 </nav>
 
@@ -26,8 +26,8 @@
       const section = document.getElementById("articles");
       const navLinks = document.querySelectorAll("nav a");
 
-      // ★ 初期表示カテゴリをファッション（other）に変更
-      let currentCategory = "other";
+      // ★ 初期表示カテゴリをガジェットに戻す
+      let currentCategory = "gadget";
 
       function renderArticles() {
         section.innerHTML = "";
