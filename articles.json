@@ -37,5 +37,18 @@
     "priority": 4,
     "isFeatured": false,
     "affiliate": false
+  },
+  {
+    "id": "gshock-review",
+    "title": "G-SHOCKを実際に使って分かったメリットと注意点【限定モデルの満足度は？】",
+    "category": "gadget",
+    "purchaseDate": "2025-05-07",
+    "thumb": "gshockW.png",
+    "url": "gshock-review.html",
+    "description": "口コミと一般論をもとに、G-SHOCK限定モデルの魅力・耐久性・注意点を詳しく解説。",
+    "tags": ["G-SHOCK", "腕時計", "カシオ"],
+    "priority": 4,
+    "isFeatured": false,
+    "affiliate": false
   }
 ]
