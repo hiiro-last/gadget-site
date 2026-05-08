@@ -89,5 +89,20 @@
     "priority": 4,
     "isFeatured": false,
     "affiliate": false
+  },
+
+  /* ▼▼ 今回追加した1件 ▼▼ */
+  {
+    "id": "key-holder-conversion-cable",
+    "title": "キーホルダー型変換ケーブルを実際に使って分かった魅力と注意点【鍵の紛失防止に最適】",
+    "category": "gadget",
+    "purchaseDate": "2024-06-15",
+    "thumb": "keycable.png",
+    "url": "key-holder-conversion-cable-review.html",
+    "description": "口コミ★5評価のキーホルダー型変換ケーブルをレビュー。鍵の紛失防止に役立ち、いざという時に変換ケーブルとして使える“男心をくすぐる”小物ガジェットの魅力を詳しく解説。",
+    "tags": ["キーホルダー", "変換ケーブル", "ガジェット", "紛失防止"],
+    "priority": 4,
+    "isFeatured": false,
+    "affiliate": false
   }
 ]
