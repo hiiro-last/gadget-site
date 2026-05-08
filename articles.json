@@ -115,5 +115,18 @@
     "priority": 4,
     "isFeatured": false,
     "affiliate": false
+  },
+  {
+    "id": "esr-iphone-stand-glass-film",
+    "title": "ESRスタンドタイプ iPhoneガラスフィルムを実際に使って分かったメリット・注意点【iPhone 17e/16e/14/13/13 Pro対応】",
+    "category": "gadget",
+    "purchaseDate": "2026-04-05",
+    "thumb": "ESR.png",
+    "url": "esr-iphone-stand-glass-film-review.html",
+    "description": "口コミ★5評価のESRスタンドタイプ iPhoneガラスフィルムをレビュー。貼りやすさ・3枚セットの安心感・画面のクリアさ・触り心地・強度を、iPhone 17e/16e/14/13/13 Pro対応という観点から詳しく解説。",
+    "tags": ["iPhoneフィルム", "ESR", "ガラスフィルム", "スタンドタイプ"],
+    "priority": 4,
+    "isFeatured": false,
+    "affiliate": false
   }
 ]
