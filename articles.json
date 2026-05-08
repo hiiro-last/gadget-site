@@ -102,5 +102,18 @@
     "priority": 4,
     "isFeatured": false,
     "affiliate": false
+  },
+  {
+    "id": "handyfan-portable",
+    "title": "携帯ハンディファン（ライトグレー）を実際に使って分かった魅力と注意点【雑誌掲載モデル】",
+    "category": "gadget",
+    "purchaseDate": "2026-05-06",
+    "thumb": "handyfan.png",
+    "url": "handyfan-portable-review.html",
+    "description": "雑誌掲載で話題になった携帯ハンディファン（ライトグレー）を口コミ★5評価をもとにレビュー。カラビナ付きで持ち運びやすく、紐調整・風量調整が優秀な“マストバイ”モデルの魅力を詳しく解説。",
+    "tags": ["ハンディファン", "携帯扇風機", "ガジェット", "夏対策"],
+    "priority": 4,
+    "isFeatured": false,
+    "affiliate": false
   }
 ]
