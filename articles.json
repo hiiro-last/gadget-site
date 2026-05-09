@@ -128,5 +128,18 @@
     "priority": 4,
     "isFeatured": false,
     "affiliate": false
+  },
+  {
+    "id": "dior-hand-cream-gift",
+    "title": "ディオールのハンドクリームはパートナーへのギフトに最適？香り・価格・プレゼント感をレビュー",
+    "category": "daily",
+    "purchaseDate": "2026-05-09",
+    "thumb": "dior.png",
+    "url": "dior-hand-cream-gift-review.html",
+    "description": "口コミ「パートナーへのギフト用としてオススメ」「値段もそこそこ」「香りも良い感じ」という評価をもとに、ディオールのハンドクリームをパートナーへのギフトとして選ぶメリットを、香り・価格・プレゼント感の3つの視点から詳しくレビュー。",
+    "tags": ["ハンドクリーム", "日用品", "ギフト", "Dior"],
+    "priority": 4,
+    "isFeatured": false,
+    "affiliate": false
   }
 ]
