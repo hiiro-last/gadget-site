@@ -38,14 +38,25 @@
 </head>
 <body>
 
-<header>
-  <a href="https://www.amazon.co.jp" target="_blank" style="color:white; text-decoration:none;">
+<!-- ▼▼▼ ヘッダー（TOPリンク化 & 右下にTOP表記） ▼▼▼ -->
+<header style="position:relative;">
+  <a href="index.html" style="color:white; text-decoration:none;">
     Gadget & Life All Hail Amazon
   </a>
+
+  <span style="
+    position:absolute;
+    right:0;
+    bottom:0;
+    font-size:12px;
+    color:#ccc;
+  ">TOP</span>
+
   <div style="font-size:14px; margin-top:6px; color:#ddd;">
     ※本ブログは管理人が<strong>自腹で購入・実際に体験したものだけ</strong>を掲載しています。
   </div>
 </header>
+<!-- ▲▲▲ ヘッダーここまで ▲▲▲ -->
 
 <nav>
   <a href="#" data-category="gadget">ガジェット</a>
@@ -56,13 +67,21 @@
 
 <section id="articles"></section>
 
-<!-- ▼▼▼ 追加：フッター ▼▼▼ -->
-<footer style="background:#000; color:#fff; text-align:center; padding:20px 0; margin-top:40px;">
-  <a href="https://www.amazon.co.jp" target="_blank" style="color:white; text-decoration:none; font-size:18px;">
+<!-- ▼▼▼ フッター（TOPリンク化 & 右下にTOP表記） ▼▼▼ -->
+<footer style="background:#000; color:#fff; text-align:center; padding:20px 0; margin-top:40px; position:relative;">
+  <a href="index.html" style="color:white; text-decoration:none; font-size:18px;">
     Gadget & Life All Hail Amazon
   </a>
+
+  <span style="
+    position:absolute;
+    right:10px;
+    bottom:5px;
+    font-size:12px;
+    color:#ccc;
+  ">TOP</span>
 </footer>
-<!-- ▲▲▲ 追加ここまで ▲▲▲ -->
+<!-- ▲▲▲ フッターここまで ▲▲▲ -->
 
 <script>
   const jsonUrl = "articles.json?v=" + Date.now();
@@ -124,7 +143,6 @@
           renderArticles();
         });
       });
-
 
       renderArticles();
     });
