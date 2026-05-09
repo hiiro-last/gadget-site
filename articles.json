@@ -141,5 +141,18 @@
     "priority": 4,
     "isFeatured": false,
     "affiliate": false
+  },
+  {
+    "id": "casio-mtp-entry-watch",
+    "title": "カシオ MTPシリーズは腕時計入門に最適？デザイン・コスパ・注意点をレビュー",
+    "category": "other",
+    "purchaseDate": "2026-03-01",
+    "thumb": "casiomtp.png",
+    "url": "casio-mtp-entry-watch-review.html",
+    "description": "Amazon星4評価のカシオ MTPシリーズ（ホワイト文字盤・バーインデックス）を、デザイン・コスパ・針の質感・チープカシオやG-SHOCKとの違いという視点から詳しくレビュー。腕時計入門機として選ぶメリットと注意点をまとめました。",
+    "tags": ["カシオ", "腕時計", "チープカシオ", "G-SHOCK"],
+    "priority": 4,
+    "isFeatured": false,
+    "affiliate": false
   }
 ]
