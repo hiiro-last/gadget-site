@@ -12,7 +12,7 @@
   <meta property="og:title" content="Gadget & Life All Hail Amazon｜Amazon購入品レビュー特化ブログ">
   <meta property="og:description" content="Amazonで実際に購入した商品の本音レビューを掲載。ガジェット・日用品・ファッションなど幅広く紹介。">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://hiiro-last.github.io/">
+  <meta property="og:url" content="https://hiiro-last.github.io/gadget-site/">
   <meta property="og:image" content="og-image.png">
 
   <meta name="twitter:card" content="summary_large_image">
@@ -25,7 +25,7 @@
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Gadget & Life All Hail Amazon",
-    "url": "https://hiiro-last.github.io/",
+    "url": "https://hiiro-last.github.io/gadget-site/",
     "description": "Amazon購入品レビュー特化ブログ。ガジェット・日用品・ファッションなどを自腹購入でレビュー。",
     "publisher": {
       "@type": "Person",
@@ -35,37 +35,158 @@
   </script>
 
   <link rel="stylesheet" href="style.css">
+
+  <!-- 画像・レイアウトを端末幅に最適化するための追記CSS -->
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+      background:#111;
+      color:#fff;
+    }
+
+    main {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 0 12px 40px;
+      box-sizing: border-box;
+    }
+
+    header {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 16px 12px 12px;
+      box-sizing: border-box;
+    }
+
+    nav {
+      max-width: 1080px;
+      margin: 0 auto 16px;
+      padding: 0 12px;
+      box-sizing: border-box;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    nav a {
+      flex: 1 1 calc(25% - 8px);
+      text-align: center;
+      padding: 8px 4px;
+      box-sizing: border-box;
+    }
+
+    @media (max-width: 768px) {
+      nav a {
+        flex: 1 1 calc(50% - 8px);
+      }
+    }
+
+    #articles {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    @media (max-width: 1024px) {
+      #articles {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 640px) {
+      #articles {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .article-card {
+      background:#1b1b1b;
+      border-radius: 10px;
+      padding: 10px;
+      box-sizing: border-box;
+      cursor: pointer;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .article-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    }
+
+    .article-card a {
+      display:block;
+    }
+
+    .article-card img {
+      display:block;
+      width:100%;
+      max-width: 260px;      /* デスクトップで“バカでかく”ならない上限 */
+      height:auto;
+      margin:0 auto 10px;
+      border-radius:8px;
+      object-fit: cover;
+    }
+
+    .article-meta {
+      font-size: 12px;
+      color:#aaa;
+      margin-bottom:4px;
+    }
+
+    .article-card h2 {
+      font-size: 15px;
+      margin: 4px 0 6px;
+      line-height:1.4;
+    }
+
+    .article-card p {
+      font-size: 13px;
+      color:#ddd;
+      margin:0;
+      line-height:1.5;
+    }
+
+    footer {
+      margin-top:40px;
+    }
+  </style>
 </head>
 <body>
 
-<!-- ▼▼▼ ヘッダー（タイトル＝ホームリンク化 & 小さく「← ホーム」） ▼▼▼ -->
-<header style="position:relative;">
-  <a href="index.html" style="color:white; text-decoration:none;">
-    Gadget & Life All Hail Amazon
-  </a>
+<main>
 
-  <span style="
-    position:absolute;
-    right:0;
-    bottom:0;
-    font-size:12px;
-    color:#ccc;
-  ">← ホーム</span>
+  <!-- ▼▼▼ ヘッダー（タイトル＝ホームリンク化 & 小さく「← ホーム」） ▼▼▼ -->
+  <header style="position:relative;">
+    <a href="index.html" style="color:white; text-decoration:none; font-size:20px; font-weight:bold;">
+      Gadget & Life All Hail Amazon
+    </a>
 
-  <div style="font-size:14px; margin-top:6px; color:#ddd;">
-    ※本ブログは管理人が<strong>自腹で購入・実際に体験したものだけ</strong>を掲載しています。
-  </div>
-</header>
-<!-- ▲▲▲ ヘッダーここまで ▲▲▲ -->
+    <span style="
+      position:absolute;
+      right:0;
+      bottom:0;
+      font-size:12px;
+      color:#ccc;
+    ">← ホーム</span>
 
-<nav>
-  <a href="#" data-category="gadget">ガジェット</a>
-  <a href="#" data-category="daily">日用品</a>
-  <a href="#" data-category="other">ファッション</a>
-  <a href="#" data-category="admin">管理人特製記事</a>
-</nav>
+    <div style="font-size:14px; margin-top:6px; color:#ddd;">
+      ※本ブログは管理人が<strong>自腹で購入・実際に体験したものだけ</strong>を掲載しています。
+    </div>
+  </header>
+  <!-- ▲▲▲ ヘッダーここまで ▲▲▲ -->
 
-<section id="articles"></section>
+  <nav>
+    <a href="#" data-category="gadget">ガジェット</a>
+    <a href="#" data-category="daily">日用品</a>
+    <a href="#" data-category="other">ファッション</a>
+    <a href="#" data-category="admin">管理人特製記事</a>
+  </nav>
+
+  <section id="articles"></section>
+
+</main>
 
 <!-- ▼▼▼ フッター（同じく「← ホーム」表記） ▼▼▼ -->
 <footer style="background:#000; color:#fff; text-align:center; padding:20px 0; margin-top:40px; position:relative;">
@@ -117,7 +238,7 @@
           card.className = "article-card";
 
           card.innerHTML = `
-            <a href="https://www.amazon.co.jp" target="_blank">
+            <a href="https://www.amazon.co.jp" target="_blank" rel="noopener noreferrer">
               <img src="${article.thumb}" alt="${article.title}">
             </a>
             <div class="article-meta">購入日：${article.purchaseDate}</div>
@@ -126,7 +247,7 @@
           `;
 
           card.addEventListener("click", (e) => {
-            if (e.target.tagName.toLowerCase() === "img") return;
+            if (e.target.tagName.toLowerCase() === "img" || e.target.closest("a")) return;
             window.location.href = article.url;
           });
 
