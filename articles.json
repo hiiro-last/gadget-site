@@ -154,5 +154,18 @@
     "priority": 4,
     "isFeatured": false,
     "affiliate": false
+  },
+  {
+    "id": "multi-attachment-bicycle-air-pump",
+    "title": "マルチアタッチメント自転車用エアポンプを実際に使って分かったメリット・注意点【クロスバイク対応】",
+    "category": "daily",
+    "purchaseDate": "2024-10-19",
+    "thumb": "airponp.png",
+    "url": "multi-attachment-bicycle-air-pump-review.html",
+    "description": "Amazon星4評価のマルチアタッチメント自転車用エアポンプをレビュー。クロスバイク用として実際に使用した体験をもとに、複数アタッチメントによる対応力、エアゲージ付きの安心感、日常使いでのメリットと注意点を詳しく解説。",
+    "tags": ["エアポンプ", "空気入れ", "自転車", "クロスバイク", "日用品"],
+    "priority": 4,
+    "isFeatured": false,
+    "affiliate": false
   }
 ]
