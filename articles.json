@@ -167,5 +167,19 @@
     "priority": 4,
     "isFeatured": false,
     "affiliate": false
+  },
+
+  {
+    "id": "northface-simple-longt",
+    "title": "THE NORTH FACE シンプル長袖Tシャツを口コミからレビュー｜素材感・透け感・着心地を徹底解説",
+    "category": "other",
+    "purchaseDate": "2026-05-10",
+    "thumb": "north-t.png",
+    "url": "northface-simple-longt-review.html",
+    "description": "口コミ★4評価をもとに、THE NORTH FACEのシンプル長袖Tシャツをレビュー。素材の良さ、着心地、透け感、サイズ感を詳しく解説し、どんな人に向いているかをまとめました。",
+    "tags": ["THE NORTH FACE", "長袖Tシャツ", "ファッション", "シンプル"],
+    "priority": 4,
+    "isFeatured": false,
+    "affiliate": false
   }
 ]
