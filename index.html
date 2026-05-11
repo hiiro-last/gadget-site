@@ -1,227 +1,160 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>レビュー特化ブログ｜最新ガジェット・日用品・ファッションを実使用レビュー</title>
+    <meta name="description" content="ガジェット・日用品・ファッションを中心に、実際に使って分かった魅力と弱点をレビュー。最新記事・注目記事・カテゴリ別に探しやすい構成でお届けします。">
 
-  <title>Gadget & Life All Hail Amazon｜Amazon購入品レビュー特化ブログ</title>
-
-  <meta name="description" content="Gadget & Life All Hail Amazon は、Amazonで実際に購入したガジェット・日用品・ファッション・管理人特製記事を本音レビューするブログ。すべて自腹購入・実体験ベースで信頼性の高いレビューを掲載。">
-  <meta name="keywords" content="Amazon, レビュー, ガジェット, 日用品, 買ってよかった, ブログ">
-
-  <meta property="og:title" content="Gadget & Life All Hail Amazon｜Amazon購入品レビュー特化ブログ">
-  <meta property="og:description" content="Amazonで実際に購入した商品の本音レビューを掲載。ガジェット・日用品・ファッションなど幅広く紹介。">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://hiiro-last.github.io/gadget-site/">
-  <meta property="og:image" content="og-image.png">
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Gadget & Life All Hail Amazon">
-  <meta name="twitter:description" content="Amazon購入品レビュー特化ブログ。すべて自腹購入・実体験ベース。">
-  <meta name="twitter:image" content="og-image.png">
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Gadget & Life All Hail Amazon",
-    "url": "https://hiiro-last.github.io/gadget-site/",
-    "description": "Amazon購入品レビュー特化ブログ。ガジェット・日用品・ファッションなどを自腹購入でレビュー。",
-    "publisher": {
-      "@type": "Person",
-      "name": "Hiro"
-    }
-  }
-  </script>
-
-  <link rel="stylesheet" href="style.css">
-
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
-      background:#111;
-      color:#fff;
-    }
-
-    main {
-      max-width: 1080px;
-      margin: 0 auto;
-      padding: 0 12px 40px;
-      box-sizing: border-box;
-    }
-
-    header {
-      max-width: 1080px;
-      margin: 0 auto;
-      padding: 16px 12px 12px;
-      box-sizing: border-box;
-    }
-
-    nav {
-      max-width: 1080px;
-      margin: 0 auto 16px;
-      padding: 0 12px;
-      box-sizing: border-box;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-
-    nav a {
-      flex: 1 1 calc(25% - 8px);
-      text-align: center;
-      padding: 8px 4px;
-      background:#222;
-      border-radius:6px;
-      text-decoration:none;
-      color:#fff;
-    }
-
-    @media (max-width: 768px) {
-      nav a {
-        flex: 1 1 calc(50% - 8px);
-      }
-    }
-
-    #articles {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 16px;
-    }
-
-    @media (max-width: 1024px) {
-      #articles {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
-    }
-
-    @media (max-width: 640px) {
-      #articles {
-        grid-template-columns: 1fr;
-      }
-    }
-
-    .article-card {
-      background:#1b1b1b;
-      border-radius: 10px;
-      padding: 10px;
-      box-sizing: border-box;
-      cursor: pointer;
-      transition: transform 0.15s ease, box-shadow 0.15s ease;
-    }
-
-    .article-card:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
-    }
-
-    .article-card img {
-      display:block;
-      width:100%;
-      max-width: 260px;
-      height:auto;
-      margin:0 auto 10px;
-      border-radius:8px;
-      object-fit: cover;
-    }
-
-    .article-meta {
-      font-size: 12px;
-      color:#aaa;
-      margin-bottom:4px;
-    }
-
-    .article-card h2 {
-      font-size: 15px;
-      margin: 4px 0 6px;
-      line-height:1.4;
-    }
-
-    .article-card p {
-      font-size: 13px;
-      color:#ddd;
-      margin:0;
-      line-height:1.5;
-    }
-
-    footer {
-      margin-top:40px;
-      background:#000;
-      color:#fff;
-      text-align:center;
-      padding:20px 0;
-      position:relative;
-    }
-  </style>
+    <style>
+        body { font-family: sans-serif; margin: 0; padding: 0; background: #fafafa; }
+        header { padding: 20px; background: #111; color: #fff; text-align: center; }
+        h2 { margin: 30px 15px 10px; }
+        .section { padding: 10px 15px; }
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 15px;
+            padding: 10px 0;
+        }
+        .card {
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            transition: 0.2s;
+        }
+        .card:hover { transform: translateY(-3px); }
+        .card img { width: 100%; height: 120px; object-fit: cover; }
+        .card-body { padding: 10px; }
+        .card-title { font-size: 14px; font-weight: bold; margin-bottom: 6px; }
+        .card-desc { font-size: 12px; color: #555; }
+        .badge-new {
+            display: inline-block;
+            background: #e60033;
+            color: #fff;
+            font-size: 10px;
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin-bottom: 5px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 15px;
+            background: #fff;
+            border-bottom: 1px solid #ddd;
+        }
+        nav a { text-decoration: none; color: #333; font-weight: bold; }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #777;
+            font-size: 12px;
+        }
+    </style>
 </head>
+
 <body>
 
-<main>
-
-<header style="position:relative;">
-  <a href="index.html" style="color:white; text-decoration:none; font-size:20px; font-weight:bold;">
-    Gadget & Life All Hail Amazon
-  </a>
-
-  <span style="position:absolute; right:0; bottom:0; font-size:12px; color:#ccc;">← ホーム</span>
-
-  <div style="font-size:14px; margin-top:6px; color:#ddd;">
-    ※本ブログは管理人が<strong>自腹で購入・実体験したものだけ</strong>を掲載しています。
-  </div>
+<header>
+    <h1>レビュー特化ブログ</h1>
+    <p>実際に使って分かった魅力と弱点を正直レビュー</p>
 </header>
 
 <nav>
-  <a href="gadget.html">ガジェット</a>
-  <a href="daily.html">日用品</a>
-  <a href="other.html">ファッション</a>
-  <a href="admin.html">管理人特製記事</a>
+    <a href="index.html">新着</a>
+    <a href="gadget.html">ガジェット</a>
+    <a href="daily.html">日用品</a>
+    <a href="other.html">その他</a>
+    <a href="admin.html">管理</a>
 </nav>
 
-<section id="articles"></section>
+<div class="section" id="latest-section">
+    <h2>🆕 新着記事</h2>
+    <div class="articles-grid" id="latest-articles"></div>
+</div>
 
-</main>
+<div class="section" id="featured-section">
+    <h2>⭐ 注目記事</h2>
+    <div class="articles-grid" id="featured-articles"></div>
+</div>
+
+<div class="section">
+    <h2>📂 カテゴリ別</h2>
+
+    <h3>ガジェット</h3>
+    <div class="articles-grid" id="cat-gadget"></div>
+
+    <h3>日用品</h3>
+    <div class="articles-grid" id="cat-daily"></div>
+
+    <h3>その他</h3>
+    <div class="articles-grid" id="cat-other"></div>
+</div>
+
+<div class="section">
+    <h2>📚 全記事一覧</h2>
+    <div class="articles-grid" id="all-articles"></div>
+</div>
 
 <footer>
-  <a href="index.html" style="color:white; text-decoration:none; font-size:18px;">
-    Gadget & Life All Hail Amazon
-  </a>
-  <span style="position:absolute; right:10px; bottom:5px; font-size:12px; color:#ccc;">← ホーム</span>
+    © 2026 レビュー特化ブログ
 </footer>
 
 <script>
-  fetch("articles.json?v=" + Date.now())
+fetch("articles.json")
     .then(res => res.json())
-    .then(data => {
-      const section = document.getElementById("articles");
+    .then(articles => {
 
-      if (data.length === 0) {
-        section.innerHTML = "<p>記事がまだありません。</p>";
-        return;
-      }
+        // --- 新着記事 ---
+        const latest = [...articles]
+            .sort((a, b) => new Date(b.purchaseDate) - new Date(a.purchaseDate))
+            .slice(0, 6);
 
-      data.forEach(article => {
-        const card = document.createElement("div");
-        card.className = "article-card";
+        render("latest-articles", latest, true);
 
-        card.innerHTML = `
-          <a href="https://www.amazon.co.jp" target="_blank" rel="noopener noreferrer">
-            <img src="${article.thumb}" alt="${article.title}">
-          </a>
-          <div class="article-meta">購入日：${article.purchaseDate}</div>
-          <h2>${article.title}</h2>
-          <p>${article.description}</p>
-        `;
+        // --- 注目記事 ---
+        const featured = articles
+            .filter(a => a.isFeatured)
+            .sort((a, b) => b.priority - a.priority)
+            .slice(0, 2);
 
-        card.addEventListener("click", (e) => {
-          if (e.target.tagName.toLowerCase() === "img" || e.target.closest("a")) return;
-          window.location.href = article.url;
-        });
+        render("featured-articles", featured, false);
 
-        section.appendChild(card);
-      });
+        // --- カテゴリ別 ---
+        render("cat-gadget", getByCategory("gadget", articles), false);
+        render("cat-daily", getByCategory("daily", articles), false);
+        render("cat-other", getByCategory("other", articles), false);
+
+        // --- 全記事 ---
+        const all = [...articles]
+            .sort((a, b) => new Date(b.purchaseDate) - new Date(a.purchaseDate));
+
+        render("all-articles", all, false);
     });
+
+function getByCategory(cat, articles) {
+    return articles
+        .filter(a => a.category === cat)
+        .sort((a, b) => new Date(b.purchaseDate) - new Date(a.purchaseDate))
+        .slice(0, 3);
+}
+
+function render(id, list, showNewBadge) {
+    const container = document.getElementById(id);
+    container.innerHTML = list.map(a => `
+        <a href="${a.url}" class="card">
+            <img src="${a.thumb}" alt="${a.title}">
+            <div class="card-body">
+                ${showNewBadge ? `<span class="badge-new">NEW</span>` : ""}
+                <div class="card-title">${a.title}</div>
+                <div class="card-desc">${a.description}</div>
+            </div>
+        </a>
+    `).join("");
+}
 </script>
 
 </body>
