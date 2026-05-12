@@ -168,7 +168,6 @@
     "isFeatured": false,
     "affiliate": false
   },
-
   {
     "id": "northface-simple-longt",
     "title": "THE NORTH FACE シンプル長袖Tシャツを口コミからレビュー｜素材感・透け感・着心地を徹底解説",
@@ -178,6 +177,19 @@
     "url": "northface-simple-longt-review.html",
     "description": "口コミ★4評価をもとに、THE NORTH FACEのシンプル長袖Tシャツをレビュー。素材の良さ、着心地、透け感、サイズ感を詳しく解説し、どんな人に向いているかをまとめました。",
     "tags": ["THE NORTH FACE", "長袖Tシャツ", "ファッション", "シンプル"],
+    "priority": 4,
+    "isFeatured": false,
+    "affiliate": false
+  },
+  {
+    "id": "acer-21-5-va-100hz-monitor",
+    "title": "Acer 21.5型 VA 100Hzモニターを実際の口コミからレビュー｜コスパ重視のフルHD入門機に最適",
+    "category": "gadget",
+    "purchaseDate": "2024-06-15",
+    "thumb": "acer.png",
+    "url": "acer-21-5-va-100hz-monitor-review.html",
+    "description": "星5評価の口コミをもとに、Acer 21.5型 VAパネル・100Hz対応モニターの画質・滑らかさ・コスパ・注意点を詳しくレビュー。フルHD入門機として、動画視聴やライトなゲーム用途に最適な理由を解説。",
+    "tags": ["Acer", "モニター", "21.5型", "100Hz", "フルHD"],
     "priority": 4,
     "isFeatured": false,
     "affiliate": false
