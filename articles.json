@@ -193,5 +193,18 @@
     "priority": 4,
     "isFeatured": false,
     "affiliate": false
+  },
+  {
+    "id": "salonia-hair-iron-upper-model-black",
+    "title": "SALONIA上位モデル ヘアアイロン（ブラック）を口コミからレビュー｜デザイン重視でも妥協しない人向け",
+    "category": "daily",
+    "purchaseDate": "2025-10-05",
+    "thumb": "salonia.png",
+    "url": "salonia-hair-iron-upper-model-black-review.html",
+    "description": "Amazon星4評価の口コミをもとに、SALONIA上位モデル ヘアアイロン（ブラック）のデザイン性・使い勝手・仕上がり・注意点を詳しくレビュー。見た目も機能も妥協したくない人向けに、実際の使用感をまとめました。",
+    "tags": ["ヘアアイロン", "サロニア", "ヘアケア", "スタイリング"],
+    "priority": 4,
+    "isFeatured": false,
+    "affiliate": true
   }
 ]
