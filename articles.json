@@ -206,5 +206,18 @@
     "priority": 4,
     "isFeatured": false,
     "affiliate": true
+  },
+  {
+    "id": "nonio-whitening-toothpaste",
+    "title": "NONIOホワイトニング歯磨き粉を実際に使って分かった口臭予防・白さ・コスパ【我が家はこれ一択】",
+    "category": "daily",
+    "purchaseDate": "2026-05-12",
+    "thumb": "nonio.png",
+    "url": "nonio-whitening-toothpaste-review.html",
+    "description": "口コミ★5評価「奥さんイチオシなので我が家はこれ一択」。NONIOホワイトニング歯磨き粉の口臭予防効果・ホワイトニングの実感・コスパ・向いている人を、実際のレビュー内容と一般的な歯磨き粉の知識をもとに詳しく解説。",
+    "tags": ["歯磨き粉", "NONIO", "口臭予防", "ホワイトニング", "日用品"],
+    "priority": 4,
+    "isFeatured": false,
+    "affiliate": true
   }
 ]
