@@ -245,5 +245,18 @@
     "priority": 4,
     "isFeatured": false,
     "affiliate": true
+  },
+  {
+    "id": "bicycle-u-lock-review",
+    "title": "自転車用U字ロックを口コミからレビュー｜ロープ・チェーンより安心できる理由",
+    "category": "daily",
+    "purchaseDate": "2024-06-15",
+    "thumb": "ulock.png",
+    "url": "bicycle-u-lock-review.html",
+    "description": "自転車店員の説明と口コミ「太い金属で切断に強そう」「ロック機構が単純で壊れにくい」という評価をもとに、大手メーカー製自転車用U字ロックの防犯性・使い勝手・向いている人を詳しくレビュー。ロープやチェーンロックからの乗り換えを検討している人向けの記事です。",
+    "tags": ["自転車ロック", "U字ロック", "日用品", "防犯"],
+    "priority": 4,
+    "isFeatured": false,
+    "affiliate": true
   }
 ]
