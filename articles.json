@@ -259,17 +259,4 @@
     "isFeatured": false,
     "affiliate": true
   }
- {
-  "id": "iPhone13mini-tradein-experience",
-  "title": "非正規修理したiPhone13 miniをApple下取りに出したら100円だった話【実体験レビュー】",
-  "category": "admin",
-  "purchaseDate": "2026-05-16",
-  "thumb": "iPhone13mini.png",
-  "url": "iPhone13mini.html",
-  "description": "非正規修理したiPhone13 miniをApple下取りに出したところ100円査定。しかしメルカリでは正直に状態を記載して21,000円で売却できた実体験を詳しく解説。",
-  "tags": ["iPhone", "下取り", "非正規修理", "中古市場"],
-  "priority": 4,
-  "isFeatured": false,
-  "affiliate": false
-}
 ]
