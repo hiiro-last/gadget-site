@@ -11,24 +11,38 @@
         header { padding: 20px; background: #111; color: #fff; text-align: center; }
         h2 { margin: 30px 15px 10px; }
         .section { padding: 10px 15px; }
+
         .articles-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
             gap: 15px;
             padding: 10px 0;
         }
+
         .card {
             background: #fff;
             border-radius: 8px;
             overflow: hidden;
             box-shadow: 0 2px 6px rgba(0,0,0,0.1);
             transition: 0.2s;
+            display: block;
         }
+
         .card:hover { transform: translateY(-3px); }
-        .card img { width: 100%; height: 120px; object-fit: cover; }
+
+        /* ★ 画像崩壊対策（今回の修正ポイント） */
+        .card img {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+            aspect-ratio: 4 / 3;
+            display: block;
+        }
+
         .card-body { padding: 10px; }
         .card-title { font-size: 14px; font-weight: bold; margin-bottom: 6px; }
         .card-desc { font-size: 12px; color: #555; }
+
         .badge-new {
             display: inline-block;
             background: #e60033;
@@ -38,6 +52,7 @@
             border-radius: 4px;
             margin-bottom: 5px;
         }
+
         nav {
             display: flex;
             justify-content: center;
@@ -47,6 +62,7 @@
             border-bottom: 1px solid #ddd;
         }
         nav a { text-decoration: none; color: #333; font-weight: bold; }
+
         footer {
             text-align: center;
             padding: 20px;
@@ -92,6 +108,9 @@
 
     <h3>その他</h3>
     <div class="articles-grid" id="cat-other"></div>
+
+    <h3>作者</h3>
+    <div class="articles-grid" id="cat-admin"></div>
 </div>
 
 <div class="section">
@@ -112,7 +131,6 @@ fetch("articles.json")
         const latest = [...articles]
             .sort((a, b) => new Date(b.purchaseDate) - new Date(a.purchaseDate))
             .slice(0, 6);
-
         render("latest-articles", latest, true);
 
         // --- 注目記事 ---
@@ -120,18 +138,17 @@ fetch("articles.json")
             .filter(a => a.isFeatured)
             .sort((a, b) => b.priority - a.priority)
             .slice(0, 2);
-
         render("featured-articles", featured, false);
 
         // --- カテゴリ別 ---
         render("cat-gadget", getByCategory("gadget", articles), false);
         render("cat-daily", getByCategory("daily", articles), false);
         render("cat-other", getByCategory("other", articles), false);
+        render("cat-admin", getByCategory("admin", articles), false);
 
         // --- 全記事 ---
         const all = [...articles]
             .sort((a, b) => new Date(b.purchaseDate) - new Date(a.purchaseDate));
-
         render("all-articles", all, false);
     });
 
