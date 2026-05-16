@@ -30,11 +30,12 @@
 
         .card:hover { transform: translateY(-3px); }
 
-        /* ★ 画像崩壊対策（height を削除し aspect-ratio を優先） */
+        /* ★ 画像崩壊対策（今回の修正ポイント） */
         .card img {
             width: 100%;
-            aspect-ratio: 4 / 3;
+            height: 120px;
             object-fit: cover;
+            aspect-ratio: 4 / 3;
             display: block;
         }
 
@@ -123,10 +124,7 @@
 
 <script>
 fetch("articles.json")
-    .then(res => {
-        if (!res.ok) throw new Error("JSON 読み込み失敗: " + res.status);
-        return res.json();
-    })
+    .then(res => res.json())
     .then(articles => {
 
         // --- 新着記事 ---
@@ -152,9 +150,6 @@ fetch("articles.json")
         const all = [...articles]
             .sort((a, b) => new Date(b.purchaseDate) - new Date(a.purchaseDate));
         render("all-articles", all, false);
-    })
-    .catch(err => {
-        console.error("articles.json の読み込みエラー:", err);
     });
 
 function getByCategory(cat, articles) {
