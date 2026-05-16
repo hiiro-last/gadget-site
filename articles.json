@@ -260,17 +260,16 @@
     "affiliate": true
   }
    {
-    "id": "iPhone13mini.html",
+    "id": "iPhone13mini",
     "title": "非正規修理したiPhone13 miniをApple下取りに出したら100円だった話【実体験レビュー】",
     "category": "admin",
     "purchaseDate": "2026-05-17",
     "thumb": "iPhone13mini.png",
     "url": "iPhone13mini.html",
-    "description": " 非正規修理品は Apple 下取りでは不利ですが、中古市場では「状態を正直に書けば」適正価格で売れます。
-    買い替え時は、下取りだけでなくフリマアプリでの販売も選択肢に入れる価値があります。",
+    "description": " 非正規修理品は Apple 下取りでは不利ですが、中古市場では「状態を正直に書けば」適正価格で売れます。買い替え時は、下取りだけでなくフリマアプリでの販売も選択肢に入れる価値があります。",
     "tags": ["Amazonプライム", "メルカリ", "転売", "節約"],
     "priority": 4,
     "isFeatured": false,
     "affiliate": false
-  },
+  }
 ]
