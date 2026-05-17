@@ -271,5 +271,18 @@
   "priority": 5,
   "isFeatured": false,
   "affiliate": false
+ },
+ {
+  "id": "seiko-dauphine-hand-watch",
+  "title": "セイコーのドーフィン針ドレスウォッチを口コミからレビュー【上品さと視認性を両立】",
+  "category": "other",
+  "purchaseDate": "2026-05-17",
+  "thumb": "seiko.png",
+  "url": "seiko-dauphine-hand-watch-review.html",
+  "description": "口コミで高評価のセイコー製ドーフィン針ドレスウォッチをレビュー。上品さ・視認性・耐久性・同価格帯モデルとの比較まで、ビジネスにも使える“価格以上にきちんと見える一本”としての魅力を詳しく解説。",
+  "tags": ["セイコー", "腕時計", "ドレスウォッチ", "ドーフィン針"],
+  "priority": 4,
+  "isFeatured": false,
+  "affiliate": true
  }
 ]
