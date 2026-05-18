@@ -284,5 +284,18 @@
   "priority": 4,
   "isFeatured": false,
   "affiliate": true
+ },
+ {
+  "id": "ugreen-foldable-usb-charger",
+  "title": "UGREEN折りたたみ式USB充電器を実際に使って分かった魅力と注意点【ロングセラーの定番ガジェット】",
+  "category": "gadget",
+  "purchaseDate": "2026-05-16",
+  "thumb": "ugreen.png",
+  "url": "ugreen-foldable-usb-charger-review.html",
+  "description": "小型で端子を折り畳めて持ち運びに便利なUGREEN折りたたみ式USB充電器を、実際の口コミと使用感をもとにロングセラーの理由と注意点まで詳しくレビュー。",
+  "tags": ["UGREEN", "USB充電器", "折りたたみプラグ", "旅行ガジェット"],
+  "priority": 4,
+  "isFeatured": false,
+  "affiliate": true
  }
 ]
