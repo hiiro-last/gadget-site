@@ -310,5 +310,18 @@
   "priority": 4,
   "isFeatured": false,
   "affiliate": true
+ },
+ {
+  "id": "black-wireless-headphone-fashion-review",
+  "title": "ブラックワイヤレスヘッドホンのシルエット問題を実際の口コミから検証【家用なら満足度高め】",
+  "category": "gadget",
+  "purchaseDate": "2025-08-17",
+  "thumb": "headphone.png",
+  "url": "black-wireless-headphone-fashion-review.html",
+  "description": "口コミ「見た目のシルエットがイマイチだが家用としては問題なし」「ノイズキャンセル含む静音性は良い」という声をもとに、ブラックワイヤレスヘッドホンをファッション目線と機能性の両面からレビュー。横顔のシルエットの注意点と、家用ガジェットとしての魅力を詳しく解説。",
+  "tags": ["ワイヤレスヘッドホン", "ヘッドホン", "ファッション", "ノイズキャンセリング", "ガジェット"],
+  "priority": 4,
+  "isFeatured": false,
+  "affiliate": true
  }
 ]
