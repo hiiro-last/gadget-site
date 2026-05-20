@@ -323,5 +323,18 @@
   "priority": 4,
   "isFeatured": false,
   "affiliate": true
+ },
+ {
+    "id": "vinko-10000mah-3c-powerbank",
+    "title": "3C認証対応10000mAhモバイルバッテリーを実際に使って分かったメリット・注意点【中国出張向け】",
+    "category": "gadget",
+    "purchaseDate": "2026-05-20",
+    "thumb": "vinko.png",
+    "url": "vinko-10000mah-3c-powerbank-review.html",
+    "description": "中国出張用に3C認証対応かつ軽量な10000mAhモバイルバッテリーを購入。大手メーカーが3C非対応の中で本製品を選んだ理由と、実際の使い勝手・メリット・注意点を詳しくレビュー。",
+    "tags": ["モバイルバッテリー", "3C認証", "中国出張", "ガジェット"],
+    "priority": 4,
+    "isFeatured": false,
+    "affiliate": true
  }
 ]
