@@ -349,5 +349,18 @@
     "priority": 4,
     "isFeatured": false,
     "affiliate": true
+  },
+  {
+    "id": "silicone-earplugs-sleep",
+    "title": "柔らかいシリコン耳栓を実際の口コミからレビュー【サイズが合えば強力な快眠アイテム】",
+    "category": "daily",
+    "purchaseDate": "2026-05-22",
+    "thumb": "mimisen.png",
+    "url": "silicone-earplugs-sleep-review.html",
+    "description": "口コミ「サイズ感さえ問題なければ有効な快眠アイテム」をもとに、柔らかいシリコン耳栓のつけ心地・サイズ選びのコツ・メリットと注意点を詳しくレビュー。YouTuberも快眠アイテムとして紹介する理由を解説します。",
+    "tags": ["耳栓", "睡眠", "快眠グッズ", "日用品"],
+    "priority": 4,
+    "isFeatured": false,
+    "affiliate": true
   }
 ]
