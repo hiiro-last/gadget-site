@@ -336,5 +336,18 @@
     "priority": 4,
     "isFeatured": false,
     "affiliate": true
+  },
+  {
+    "id": "columbia-business-backpack-review",
+    "title": "コロンビアの四角いビジネスリュックを口コミからレビュー【通勤にちょうどいいアウトドアブランド】",
+    "category": "other",
+    "purchaseDate": "2026-05-21",
+    "thumb": "columbia.png",
+    "url": "columbia-business-backpack-review.html",
+    "description": "口コミ「非常に良くできたリュックで通勤時に愛用」「形状が四角っぽいのでビジネスでも違和感ない」「アウトドアブランドらしく防水性・耐久性問題なし」「ロゴも派手すぎないがしっかりある」「価格も他のアウトドアブランドと比較して安価」といった評価をもとに、コロンビアの四角いビジネスリュックを通勤目線で詳しくレビュー。",
+    "tags": ["コロンビア", "リュック", "ビジネスリュック", "通勤バッグ", "アウトドアブランド"],
+    "priority": 4,
+    "isFeatured": false,
+    "affiliate": true
   }
 ]
