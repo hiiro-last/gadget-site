@@ -362,5 +362,18 @@
     "priority": 4,
     "isFeatured": false,
     "affiliate": true
+  },
+  {
+    "id": "esr-magsafe-card-case",
+    "title": "ESR MagSafe対応レザー風カードケースを実際に使って分かった魅力と注意点【財布を持ち歩きたくない人向け】",
+    "category": "gadget",
+    "purchaseDate": "2025-11-08",
+    "thumb": "esrcardcase.png",
+    "url": "esr-magsafe-card-case-review.html",
+    "description": "Apple純正ファインウーブンから乗り換えて分かった、ESR MagSafe対応レザー風カードケースの薄さ・収納力・耐久性・注意点を詳しくレビュー。財布を持ち歩きたくない人向けのミニマルなキャッシュレス運用に最適な理由を解説。",
+    "tags": ["ESR", "カードケース", "MagSafe", "iPhone", "ミニマル財布"],
+    "priority": 4,
+    "isFeatured": false,
+    "affiliate": true
   }
 ]
