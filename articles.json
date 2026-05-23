@@ -375,5 +375,18 @@
     "priority": 4,
     "isFeatured": false,
     "affiliate": true
+  },
+  {
+    "id": "japan-nose-tape-fiber-type",
+    "title": "日本メーカー鼻腔拡張テープを実際に使って分かった正直な感想【Amazonブランドと比較】",
+    "category": "daily",
+    "purchaseDate": "2026-05-23",
+    "thumb": "hanapita.png",
+    "url": "japan-nose-tape-fiber-type-review.html",
+    "description": "日本メーカーの鼻腔拡張テープを実際に使い、Amazonプライベートブランド品との違いを比較しながら、かゆみ・素材・フィット感・選び方のポイントを正直にレビュー。",
+    "tags": ["鼻腔拡張テープ", "日用品", "睡眠", "いびき対策"],
+    "priority": 4,
+    "isFeatured": false,
+    "affiliate": true
   }
 ]
