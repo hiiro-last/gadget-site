@@ -401,5 +401,18 @@
   "priority": 4,
   "isFeatured": false,
   "affiliate": true
- }
+ },
+ {
+    "id": "tablet-ring-stand-strong-tape",
+    "title": "タブレット用回転式リングスタンドを実際に使って分かったメリット・デメリットと比較【強力両面テープ】",
+    "category": "gadget",
+    "purchaseDate": "2026-05-25",
+    "thumb": "tabring.png",
+    "url": "tablet-ring-stand-strong-tape-review.html",
+    "description": "大きめサイズでタブレットをしっかり支える回転式リングスタンドを、実際の口コミをもとにレビュー。強力両面テープのメリット・デメリット、据え置き型スタンドやケース一体型との比較、失敗しにくい貼り付け方とおすすめの使い方を詳しく解説。",
+    "tags": ["タブレット", "リングスタンド", "ガジェット", "スタンド"],
+    "priority": 4,
+    "isFeatured": false,
+    "affiliate": true
+  }
 ]
