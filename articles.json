@@ -388,5 +388,18 @@
     "priority": 4,
     "isFeatured": false,
     "affiliate": true
-  }
+  },
+  {
+  "id": "iphone17e-256gb-review",
+  "title": "iPhone 17e 256GBを実際の口コミからレビュー【カメラよりコスパ重視なら有力候補】",
+  "category": "gadget",
+  "purchaseDate": "2026-05-24",
+  "thumb": "iPhone17e.png",
+  "url": "iphone17e-256gb-review.html",
+  "description": "カメラよりコスパを重視する人向けに、iPhone 17e 256GBの性能・容量・価格バランスを口コミと一般的な情報をもとにレビュー。A19チップの快適さや256GBストレージの安心感を解説。",
+  "tags": ["iPhone", "スマホ", "コスパ", "Apple"],
+  "priority": 4,
+  "isFeatured": false,
+  "affiliate": true
+ }
 ]
