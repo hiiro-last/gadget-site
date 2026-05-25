@@ -414,5 +414,18 @@
     "priority": 4,
     "isFeatured": false,
     "affiliate": true
+  },
+  {
+  "id": "slim-magsafe-iphone-case-review",
+  "title": "薄型MagSafe対応iPhoneケースを実際に使って分かったメリット・デメリットと他社比較",
+  "category": "gadget",
+  "purchaseDate": "2026-05-26",
+  "thumb": "iPhonecase.png",
+  "url": "slim-magsafe-iphone-case-review.html",
+  "description": "薄くて軽いMagSafe対応iPhoneケースを口コミと実使用感からレビュー。指紋の付きにくさや磁力の強さ、端部がめくれやすいデメリット、他のケースとの比較まで、購入前に知っておきたいポイントを解説。",
+  "tags": ["iPhone", "ケース", "MagSafe", "薄型"],
+  "priority": 4,
+  "isFeatured": false,
+  "affiliate": true
   }
 ]
