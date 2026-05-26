@@ -427,5 +427,18 @@
   "priority": 4,
   "isFeatured": false,
   "affiliate": true
+  },
+  {
+    "id": "earfun-wireless-earbuds-noisecancel-review",
+    "title": "EarFunワイヤレスイヤホンを実際に使って分かったメリット・デメリット【雑誌掲載モデルレビュー】",
+    "category": "gadget",
+    "purchaseDate": "2026-05-27",
+    "thumb": "earfun.png",
+    "url": "earfun-wireless-earbuds-noisecancel-review.html",
+    "description": "口コミをもとにEarFunワイヤレスイヤホンのメリット・デメリット・比較ポイントを詳しくレビュー。",
+    "tags": ["EarFun", "ワイヤレスイヤホン", "ノイズキャンセリング", "ガジェット"],
+    "priority": 4,
+    "isFeatured": false,
+    "affiliate": true
   }
 ]
