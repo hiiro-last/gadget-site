@@ -440,5 +440,18 @@
     "priority": 4,
     "isFeatured": false,
     "affiliate": true
+  },
+  {
+    "id": "iphone-ai-blog-launch-story-admin",
+    "title": "ど素人がiPhoneとAIだけで1週間でブログを作れた話【管理人特製】",
+    "category": "admin",
+    "purchaseDate": "2026-05-28",
+    "thumb": "blog1.png",
+    "url": "iphone-ai-blog-launch-story-admin.html",
+    "description": "Webコンテンツど素人の管理人が、iPhoneとAI（Copilot）だけを使って約1週間でブログを立ち上げた実体験をまとめた管理人特製の記事。なぜブログという選択肢にたどり着いたのか、iPhoneだけ・無料・隙間時間・自分の強みという条件から考えたプロセスを整理しています。",
+    "tags": ["ブログ運営", "副業", "AI", "iPhone", "管理人特製"],
+    "priority": 4,
+    "isFeatured": false,
+    "affiliate": true
   }
 ]
