@@ -453,5 +453,18 @@
     "priority": 4,
     "isFeatured": false,
     "affiliate": true
+  },
+  {
+  "id": "sleep-mouth-tape-wide-cover",
+  "title": "口を広範囲で塞ぐスリープテープを実際に使って分かったメリット・デメリット【X字テープとの比較】",
+  "category": "daily",
+  "purchaseDate": "2026-05-30",
+  "thumb": "sleeptape.png",
+  "url": "sleep-mouth-tape-wide-cover-review.html",
+  "description": "口コミ「いろいろな口テープを試したが、広範囲で塞ぐタイプが一段上」と評価されたスリープテープについて、実際の使用感をもとにメリット・デメリット・X字テープとの比較・注意点を詳しくレビュー。",
+  "tags": ["口テープ", "スリープテープ", "いびき対策", "日用品"],
+  "priority": 4,
+  "isFeatured": false,
+  "affiliate": true
   }
 ]
