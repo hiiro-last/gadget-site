@@ -466,5 +466,18 @@
   "priority": 4,
   "isFeatured": false,
   "affiliate": true
- }
+ },
+ {
+    "id": "adidas-stansmith-coreblack-review",
+    "title": "アディダス スタンスミス コアブラック レザースニーカーを実際の口コミからレビュー【きれいめ黒スニーカーを探している人へ】",
+    "category": "other",
+    "purchaseDate": "2026-01-13",
+    "thumb": "stansmith.png",
+    "url": "adidas-stansmith-coreblack-review.html",
+    "description": "口コミ「パートナーも好印象」「革系で黒のスニーカーを求めていたので満足」と評価されたアディダス スタンスミス コアブラック/コアブラック/フットウェアホワイトを、デザイン・履き心地・デメリット・白スタンスミスや他の黒スニーカーとの比較という視点で詳しくレビュー。",
+    "tags": ["スタンスミス", "スニーカー", "アディダス", "ファッション"],
+    "priority": 4,
+    "isFeatured": false,
+    "affiliate": true
+  }
 ]
