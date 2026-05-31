@@ -479,5 +479,18 @@
     "priority": 4,
     "isFeatured": false,
     "affiliate": true
-  }
+  },
+  {
+  "id": "bakuon-notification-bluetooth-speaker-firetv",
+  "title": "爆音通知Bluetoothスピーカーを実際に使って分かったデメリットとおすすめの使い方【Fire TV用】",
+  "category": "gadget",
+  "purchaseDate": "2026-06-01",
+  "thumb": "speakerbakuon.png",
+  "url": "bakuon-notification-bluetooth-speaker-firetv-review.html",
+  "description": "Fire TV用に購入した爆音通知Bluetoothスピーカーについて、通知音の爆音という大きなデメリットと、スピーカーとしての使い勝手・向いている人／向かない人を実体験ベースで正直にレビュー。",
+  "tags": ["Bluetoothスピーカー", "Fire TV", "テレビ用スピーカー", "ガジェット"],
+  "priority": 4,
+  "isFeatured": false,
+  "affiliate": true
+ }
 ]
