@@ -492,5 +492,18 @@
   "priority": 4,
   "isFeatured": false,
   "affiliate": true
+ },
+ {
+  "id": "fire-tv-stick-4k-max-review",
+  "title": "Fire TV Stick 4K Maxを実際に使って分かったメリット・デメリットと他サービス比較レビュー",
+  "category": "gadget",
+  "purchaseDate": "2026-06-02",
+  "thumb": "firetv.png",
+  "url": "fire-tv-stick-4k-max-review.html",
+  "description": "口コミ★5評価「大画面でプライムビデオ観れて満足」という声をもとに、Fire TV Stick 4K Maxのセットアップのしやすさ、実際の使用感、デメリット、スマホ・PC・スマートテレビとの比較までを整理したレビュー記事です。",
+  "tags": ["Fire TV Stick", "ストリーミングデバイス", "Prime Video", "ガジェット"],
+  "priority": 4,
+  "isFeatured": false,
+  "affiliate": true
  }
 ]
