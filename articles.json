@@ -518,5 +518,18 @@
   "priority": 4,
   "isFeatured": false,
   "affiliate": true
+ },
+ {
+  "id": "amazon-adjustable-eyemask-black",
+  "title": "調整バンド付きアイマスク（ブラック）を実際に使って分かったメリット・デメリット【レビュー】",
+  "category": "daily",
+  "purchaseDate": "2026-03-07",
+  "thumb": "eyemask.png",
+  "url": "amazon-adjustable-eyemask-black-review.html",
+  "description": "Amazonで購入できる調整バンド付きアイマスク（ブラック）を、実際の口コミと一般的な睡眠グッズの知見をもとにレビュー。装着感・遮光性のメリットから、締め付けや素材との相性といったデメリット、鼻テープや耳栓との組み合わせまで、購入前に押さえておきたいポイントをまとめています。",
+  "tags": ["アイマスク", "睡眠グッズ", "日用品", "遮光", "レビュー"],
+  "priority": 4,
+  "isFeatured": false,
+  "affiliate": true
  }
 ]
