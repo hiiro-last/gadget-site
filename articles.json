@@ -544,5 +544,18 @@
   "priority": 4,
   "isFeatured": false,
   "affiliate": true
+ },
+ {
+  "id": "gm-2110d-7ajf-metal-review",
+  "title": "G-SHOCK GM-2110D-7AJFを実際に使って分かったメリット・デメリット【メタルベゼルのコスパ検証】",
+  "category": "gadget",
+  "purchaseDate": "2026-01-04",
+  "thumb": "metalg.png",
+  "url": "gm-2110d-7ajf-metal-review.html",
+  "description": "口コミ星5評価のG-SHOCK【国内正規品】GM-2110D-7AJF メンズ シルバーについて、メタルベゼルの高級感・コスパの良さ・樹脂バック構造によるデメリット・フルメタルモデルとの比較を交えながら詳しくレビュー。",
+  "tags": ["G-SHOCK", "腕時計", "メタルベゼル", "カシオ"],
+  "priority": 4,
+  "isFeatured": false,
+  "affiliate": true
  }
 ]
