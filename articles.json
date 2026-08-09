@@ -583,5 +583,18 @@
   "priority": 4,
   "isFeatured": false,
   "affiliate": true
+ },
+ {
+  "id": "anker-powerline-iii-flow",
+  "title": "Anker PowerLine III Flow USB-C & USB-C ケーブル（1.8m）を実機レビュー｜絡まない・240W対応",
+  "category": "gadget",
+  "purchaseDate": "2026-08-09",
+  "thumb": "ankercable.png",
+  "url": "anker-powerline-iii-flow-review.html",
+  "description": "1.8mの絶妙な長さとシリコン系の肌触り、結束バンド付きで出張やデスク周りに最適。240W USB PD対応で高速充電も安心。",
+  "tags": ["Anker", "ケーブル", "USB-C", "PowerLine III", "充電"],
+  "priority": 4,
+  "isFeatured": false,
+  "affiliate": true
  }
 ]
