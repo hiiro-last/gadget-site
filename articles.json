@@ -570,5 +570,18 @@
   "priority": 4,
   "isFeatured": false,
   "affiliate": true
+ },
+ {
+  "id": "gear-aid-hero-clip-stealth-black",
+  "title": "Ｇｅａｒ Ａｉｄ カラビナ型フック ヒーロクリップ スモール ステルスブラック 210012-010 実機レビュー",
+  "category": "gadget",
+  "purchaseDate": "2026-05-30",
+  "thumb": "karabina.png",
+  "url": "gear-aid-hero-clip-stealth-black.html",
+  "description": "小型で耐荷重に優れるGear Aid ヒーロークリップ（Sサイズ・ステルスブラック）を実使用レビュー。リュックへの取り付け感、耐久性、折りたたみのコツを詳しく解説。",
+  "tags": ["Gear Aid", "カラビナ", "ヒーロークリップ", "ガジェット"],
+  "priority": 4,
+  "isFeatured": false,
+  "affiliate": true
  }
 ]
