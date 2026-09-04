@@ -1,3 +1,8 @@
 User-agent: *
 Allow: /
-Sitemap: https://hiiro-last.github.io/sitemap.xml
+
+# Crawl delay to be respectful to server
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://hiiro-last.github.io/gadget-site/sitemap.xml
