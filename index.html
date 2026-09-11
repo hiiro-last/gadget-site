@@ -83,7 +83,6 @@
     <a href="gadget.html">ガジェット</a>
     <a href="daily.html">日用品</a>
     <a href="other.html">その他</a>
-    <a href="admin.html">作者</a>
 </nav>
 
 <div class="section" id="latest-section">
@@ -107,9 +106,6 @@
 
     <h3>その他</h3>
     <div class="articles-grid" id="cat-other"></div>
-
-    <h3>作者</h3>
-    <div class="articles-grid" id="cat-admin"></div>
 </div>
 
 <div class="section">
@@ -139,14 +135,14 @@ fetch("articles.json")
             .slice(0, 2);
         render("featured-articles", featured, false);
 
-        // カテゴリ別
+        // カテゴリ別（admin は除外）
         render("cat-gadget", getByCategory("gadget", articles), false);
         render("cat-daily", getByCategory("daily", articles), false);
         render("cat-other", getByCategory("other", articles), false);
-        render("cat-admin", getByCategory("admin", articles), false);
 
-        // 全記事
+        // 全記事（admin を除外）
         const all = [...articles]
+            .filter(a => a.category !== "admin")
             .sort((a, b) => new Date(b.purchaseDate) - new Date(a.purchaseDate));
         render("all-articles", all, false);
     });
